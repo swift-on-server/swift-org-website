@@ -1,0 +1,265 @@
+- name: Web frameworks
+  packages:
+    
+    - name: Hummingbird
+      description: Lightweight, flexible HTTP server framework written in Swift.
+      links:
+        - name: GitHub
+          url: https://github.com/hummingbird-project/hummingbird
+        - name: Documentation
+          url: https://docs.hummingbird.codes/2.0/documentation/hummingbird/
+        - name: Examples
+          url: https://github.com/hummingbird-project/hummingbird-examples/
+   
+    - name: Vapor
+      description: Lightweight, flexible HTTP server framework written in Swift.
+      links:
+        - name: GitHub
+          url: https://github.com/vapor/vapor
+        - name: Documentation
+          url: https://docs.vapor.codes/
+        - name: Website
+          url: https://vapor.codes
+
+- name: Database, persistence
+  packages:
+    
+    - name: PostgresNIO
+      description: Non-blocking, event-driven Swift client for PostgreSQL.
+      links:
+        - name: GitHub
+          url: https://github.com/vapor/postgres-nio
+        - name: Documentation
+          url: https://api.vapor.codes/postgresnio/documentation/postgresnio/
+    
+    - name: RediStack
+      description: Non-blocking, event-driven Swift client for Redis.
+      links:
+        - name: GitHub
+          url: https://github.com/swift-server/RediStack
+        - name: Documentation
+          url: https://swiftpackageindex.com/swift-server/RediStack/1.6.2/documentation/redistack
+    
+    - name: MongoSwift
+      description: The official MongoDB driver for Swift.
+      links:
+        - name: GitHub
+          url: https://github.com/mongodb/mongo-swift-driver
+        - name: Documentation
+          url: https://mongodb.github.io/mongo-swift-driver/docs/current/MongoSwift/index.html
+    
+    - name: CassandraClient
+      description: Client library for the Cassandra distributed database.
+      links:
+        - name: GitHub
+          url: https://github.com/apple/swift-cassandra-client
+        - name: Documentation
+          url: https://swiftpackageindex.com/apple/swift-cassandra-client/main/documentation/cassandraclient
+   
+    - name: SQLiteNIO
+      description: Non-blocking wrapper for libsqlite3-dev using SwiftNIO.
+      links:
+        - name: GitHub
+          url: https://github.com/mongodb/mongo-swift-driver
+        - name: Documentation
+          url: https://api.vapor.codes/sqlitenio/documentation/sqlitenio/
+   
+    - name: MongoKitten
+      description: Native MongoDB driver for Swift, written in Swift.
+      links:
+        - name: GitHub
+          url: https://github.com/orlandos-nl/MongoKitten
+        - name: Examples
+          url: https://github.com/orlandos-nl/MongoKitten-Examples
+    
+    - name: Oracle NIO
+      description: Non-blocking, event-driven Swift client for Oracle DBs. Does not require OCI or ODPI.
+      links:
+        - name: GitHub
+          url: https://github.com/lovetodream/oracle-nio
+        - name: Documentation
+          url: https://swiftpackageindex.com/lovetodream/oracle-nio/v1.0.0-alpha.3/documentation/oraclenio
+
+- name: Miscellaneous
+  packages:
+
+    - name: AsyncHTTPClient
+      description: HTTP client library built on SwiftNIO.
+      links:
+        - name: GitHub
+          url: https://github.com/swift-server/async-http-client
+        - name: Documentation
+          url: https://swift-server.github.io/async-http-client/docs/current/AsyncHTTPClient/index.html
+    
+    - name: JWTKit
+      description: JSON Web Token (JWT) signing and verification (HMAC, ECDSA, EdDSA, RSA, PSS) with support for JWS and JWK.
+      links:
+        - name: GitHub
+          url: https://github.com/vapor/jwt-kit
+        - name: Documentation
+          url: https://api.vapor.codes/jwtkit/documentation/jwtkit/
+    
+    - name: APNSwift
+      description: HTTP/2 Apple Push Notification Service built with swift - send push notifications to iOS, iPadOS, tvOS, macOS, watchOS, visionOS, and Safari!
+      links:
+        - name: GitHub
+          url: https://github.com/swift-server-community/APNSwift
+   
+    - name: SwiftStatsdClient
+      description: Metrics backend for swift-metrics that uses the statsd protocol.
+      links:
+        - name: GitHub
+          url: https://github.com/apple/swift-statsd-client
+    
+    - name: gRPC Swift
+      description: The Swift language implementation of gRPC.
+      links:
+        - name: GitHub
+          url: https://github.com/grpc/grpc-swift
+
+    - name: OpenAPIKit
+      description: Codable Swift OpenAPI implementation.
+      links:
+        - name: GitHub
+          url: https://github.com/mattpolzin/OpenAPIKit
+
+    - name: Swift AWS Lambda Runtime
+      description: Swift implementation of AWS Lambda Runtime.
+      links:
+        - name: GitHub
+          url: https://github.com/swift-server/swift-aws-lambda-runtime
+
+    - name: Soto for AWS
+      description: Swift SDK for AWS that works on Linux, macOS and iOS.
+      links:
+        - name: GitHub
+          url: https://github.com/soto-project/soto
+        - name: Website
+          url: https://soto.codes/
+
+    - name: MultipartKit
+      description: Parses and serializes multipart-encoded data with Codable support.
+      links:
+        - name: GitHub
+          url: https://github.com/vapor/multipart-kit
+        - name: Documentation
+          url: https://api.vapor.codes/multipartkit/documentation/multipartkit/
+
+    - name: MQTT NIO
+      description: A Swift NIO MQTT v3.1.1 and v5.0 Client.
+      links:
+        - name: GitHub
+          url: https://github.com/swift-server-community/mqtt-nio
+        - name: Documentation
+          url: https://swift-server-community.github.io/mqtt-nio/documentation/mqttnio/
+
+    - name: GraphQL
+      description: The Swift GraphQL implementation for macOS and Linux.
+      links:
+        - name: GitHub
+          url: https://github.com/GraphQLSwift/GraphQL
+
+    - name: Graphiti
+      description: The Swift GraphQL Schema framework for macOS and Linux.
+      links:
+        - name: GitHub
+          url: https://github.com/GraphQLSwift/Graphiti
+
+    - name: DiscordBM
+      description: A Multiplatform Swift Discord Library, Primarily For Making Bots.
+      links:
+        - name: GitHub
+          url: https://github.com/discordbm/discordbm
+
+    - name: Swift OpenAPI Generator
+      description: Generate Swift client and server code from an OpenAPI document.
+      links:
+        - name: GitHub
+          url: https://github.com/apple/swift-openapi-generator
+        - name: Documentation
+          url: https://swiftpackageindex.com/apple/swift-openapi-generator/1.2.1/documentation/swift-openapi-generator
+        - name: Examples
+          url: https://github.com/apple/swift-openapi-generator/blob/main/Examples/README.md
+
+- name: Observability
+  packages:
+
+    - name: SwiftMetrics
+      description: Metrics API for Swift.
+      links:
+        - name: GitHub
+          url: https://github.com/apple/swift-metrics/
+
+    - name: SwiftPrometheus
+      description: Prometheus client library for Swift.
+      links:
+        - name: GitHub
+          url: https://github.com/swift-server/swift-prometheus
+        - name: Documentation
+          url: https://swiftpackageindex.com/swift-server/swift-prometheus/2.0.0/documentation/prometheus
+
+    - name: Swift Distributed Tracing
+      description: Instrumentation library for Swift server applications.
+      links:
+        - name: GitHub
+          url: https://github.com/apple/swift-distributed-tracing
+        - name: Documentation
+          url: https://swiftpackageindex.com/apple/swift-distributed-tracing/main/documentation/tracing
+
+- name: Fundamentals
+  packages:
+
+    - name: SwiftNIO
+      description: Event-driven network application framework for high performance protocol servers & clients, non-blocking.
+      links:
+        - name: GitHub
+          url: https://github.com/apple/swift-nio/
+        - name: Documentation
+          url: https://swiftpackageindex.com/apple/swift-nio/2.65.0/documentation/nio
+
+    - name: SwiftLog
+      description: A Logging API for Swift.
+      links:
+        - name: GitHub
+          url: https://github.com/apple/swift-log/
+        - name: Documentation
+          url: https://swiftpackageindex.com/apple/swift-log/1.5.4/documentation/logging
+
+    - name: Swift Crypto
+      description: Open-source implementation of a substantial portion of the API of Apple CryptoKit suitable for use on Linux platforms.
+      links:
+        - name: GitHub
+          url: https://github.com/apple/swift-crypto
+        - name: Documentation
+          url: https://apple.github.io/swift-crypto/docs/current/Crypto/index.html
+
+    - name: Backtrace
+      description: Backtraces for Swift on Linux and Windows.
+      links:
+        - name: GitHub
+          url: https://github.com/swift-server/swift-backtrace
+
+    - name: Service Lifecycle
+      description: Cleanly startup and shutdown server application, freeing resources in order before exiting.
+      links:
+        - name: GitHub
+          url: https://github.com/swift-server/swift-service-lifecycle
+        - name: Documentation
+          url: https://swiftpackageindex.com/swift-server/swift-service-lifecycle/2.5.0/documentation/servicelifecycle
+
+    - name: Swift Distributed Actors
+      description: Peer-to-peer cluster implementation for Swift Distributed Actors.
+      links:
+        - name: GitHub
+          url: https://github.com/apple/swift-distributed-actors
+        - name: Documentation
+          url: https://swiftpackageindex.com/apple/swift-distributed-actors/main/documentation/distributedcluster
+
+    - name: Swift Service Context
+      description: Minimal type-safe context propagation container.
+      links:
+        - name: GitHub
+          url: https://github.com/apple/swift-service-context
+
+
+
