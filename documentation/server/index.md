@@ -1,8 +1,11 @@
 ---
 redirect_from:
   - "/server/"
-  - "server/guides/"
+  - "/server/guides/"
+  - "/server/guides/deployment/"
   - "/server-apis/"
+  - "/documentation/server/guides/"
+  - "/documentation/server/guides/deployment"
 layout: page
 title: Swift on Server
 ---
@@ -43,10 +46,12 @@ Overall, Swift on Server opens up new opportunities for developers to build fast
 
 To build and run Swift applications on the server, developers can make use of web frameworks such as [Vapor](https://vapor.codes/) and [Hummingbird](https://swiftpackageindex.com/hummingbird-project/hummingbird) which provide a variety of tools and libraries to streamline the development process. These frameworks handle important aspects like routing, database integration, and request handling, allowing developers to focus on building the business logic of their applications.
 
+### Development guides
+
 - [Hello, World! - Vapor](/documentation/server/guides/basics/hello-world-vapor/)
 - [Hello, World! - Hummingbird](/documentation/server/guides/basics/hello-world-hummingbird/)
 
-### Development guides
+### Technical guides
 
 The Swift Server Workgroup and Swift on Server community have developed several guides for using Swift on the server.
 They are designed to help teams and individuals running server-side Swift applications on Linux, including orientation for those who want to start developing with Swift.
@@ -73,8 +78,16 @@ _These guides are a community effort. Anyone is invited to share their tips and 
 
 The following guides can help with the deployment to public cloud providers:
 
--> extract the contents of this...
-- [Deployment](/documentation/server/guides/deployment.html).
+* [AWS Lambda using the Serverless Application Model (SAM)](/documentation/server/guides/deploying/aws-sam-lambda.html)
+* [AWS Fargate with Vapor and MongoDB Atlas](/documentation/server/guides/deploying/aws-copilot-fargate-vapor-mongo.html)
+* [AWS EC2](/documentation/server/guides/deploying/aws.html)
+* [DigitalOcean](/documentation/server/guides/deploying/digital-ocean.html)
+* [Heroku](/documentation/server/guides/deploying/heroku.html)
+* [Kubernetes & Docker](/documentation/server/guides/packaging.html#docker)
+* [GCP](/documentation/server/guides/deploying/gcp.html)
+
+If you are deploying to your own servers (e.g. bare metal, VMs or Docker) there are several strategies for packaging Swift applications for deployment, see the [Packaging Guide](/server/guides/packaging.html) for more information.
+
 
 ### Other websites and tutorials
 
@@ -120,16 +133,3 @@ Here is a list of recommended server-side Swift libraries that have been incubat
 </ul>
 <br>
 {% endfor %}
-
-
-## Companies using Swift on Server
-
-Various companies and organizations have adopted Server-side Swift libraries to power their production services.
-
-- [Apple](https://www.apple.com/)
-- [Amazon](https://amazon.com/)
-- [Binary Birds](https://binarybirds.com/)
-- [Broken Hands](https://www.brokenhands.io/)
-- [Unbeatable Software](https://unbeatable.software/)
-
-
