@@ -1,7 +1,7 @@
 ---
 redirect_from: 
-  - "/server/guides/deploying/aws-copilot-fargate-vapor-mongo"
-  - "/documentation/server/guides/deploying/aws-copilot-fargate-vapor-mongo"
+    - "/server/guides/deploying/aws-copilot-fargate-vapor-mongo"
+    - "/documentation/server/guides/deploying/aws-copilot-fargate-vapor-mongo"
 layout: page
 title: Deploying to AWS with Fargate, Vapor, and MongoDB Atlas
 ---

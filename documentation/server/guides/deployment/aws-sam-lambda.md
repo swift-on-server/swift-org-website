@@ -1,7 +1,7 @@
 ---
 redirect_from:  
-  - "/server/guides/deploying/aws-sam-lambda"
-  - "/documentation/server/guides/deploying/aws-sam-lambda"
+    - "/server/guides/deploying/aws-sam-lambda"
+    - "/documentation/server/guides/deploying/aws-sam-lambda"
 layout: page
 title: Deploying to AWS Lambda using the Serverless Application Model (SAM)
 ---
