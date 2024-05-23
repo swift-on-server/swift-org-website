@@ -10,11 +10,11 @@ The [Swift Server Workgroup](/sswg/) has maintained a set of open source guides 
 
 The guides cover a number of useful topics:
 
- * [Setting up your environment](/documentation/server/guides/setup-and-ide-alternatives.html)
- * [Building]({{site.url}}/documentation/server/guides/building.html) and [testing]({{site.url}}/documentation/server/guides/testing.html)
- * [Profiling]({{site.url}}/documentation/server/guides/performance.html) and [deploying]({{site.url}}/documentation/server/guides/deployment.html) (including AWS, Digital Ocean, Heroku, and GCP)
- * [Docker best practices]({{site.url}}/documentation/server/guides/packaging.html)
- * [Debugging in production]({{site.url}}/documentation/server/guides/llvm-sanitizers.html)
+ * [Setting up your environment](/documentation/server/guides/technical/setup-and-ide-alternatives/)
+ * [Building]({{site.url}}/documentation/server/guides/technical/building/) and [testing]({{site.url}}/documentation/server/guides/technical/testing/)
+ * [Profiling]({{site.url}}/documentation/server/guides/technical/performance/) and [deploying]({{site.url}}/documentation/server/guides/deployment/) (including AWS, Digital Ocean, Heroku, and GCP)
+ * [Docker best practices]({{site.url}}/documentation/server/guides/technical/packaging/)
+ * [Debugging in production]({{site.url}}/documentation/server/guides/technical/llvm-sanitizers/)
 
 The guides also include a section for library authors, covering best practices for log levels and approaches for adopting Swift concurrency.
 

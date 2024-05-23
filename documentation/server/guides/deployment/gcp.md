@@ -1,5 +1,7 @@
 ---
-redirect_from: "server/guides/deploying/gcp"
+redirect_from:  
+  - "/server/guides/deploying/gcp"
+  - "/documentation/server/guides/deploying/gcp"
 layout: page
 title: Deploying to Google Cloud Platform (GCP)
 ---
@@ -47,7 +49,7 @@ project root:
 You should test your Dockerfile with `docker build . -t test` and
 `docker run -p 8080:8080 test` and make sure it builds and runs locally.
 
-The _Dockerfile_ is the same as in the [packaging guide](/server/guides/packaging.html#docker).
+The _Dockerfile_ is the same as in the [packaging guide](/documentation/server/guides/technical/packaging/#docker).
 Replace `<executable-name>` with your `executableTarget` (ie. "Server"):
 
 ```Dockerfile

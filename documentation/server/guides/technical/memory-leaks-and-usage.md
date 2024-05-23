@@ -1,5 +1,7 @@
 ---
-redirect_from: "server/guides/memory-leaks-and-usage"
+redirect_from: 
+  - "/server/guides/memory-leaks-and-usage"
+  - "/documentation/server/guides/memory-leaks-and-usage"
 layout: page
 title: Debugging Memory Leaks and Usage
 ---

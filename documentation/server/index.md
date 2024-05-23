@@ -1,10 +1,10 @@
 ---
 redirect_from:
-  - "/server/"
-  - "/server/guides/"
-  - "/server/guides/deployment/"
-  - "/server-apis/"
-  - "/documentation/server/guides/"
+  - "/server"
+  - "/server/guides"
+  - "/server/guides/deployment"
+  - "/server-apis"
+  - "/documentation/server/guides"
   - "/documentation/server/guides/deployment"
 layout: page
 title: Swift on Server
@@ -46,47 +46,49 @@ Overall, Swift on Server opens up new opportunities for developers to build fast
 
 To build and run Swift applications on the server, developers can make use of web frameworks such as [Vapor](https://vapor.codes/) and [Hummingbird](https://swiftpackageindex.com/hummingbird-project/hummingbird) which provide a variety of tools and libraries to streamline the development process. These frameworks handle important aspects like routing, database integration, and request handling, allowing developers to focus on building the business logic of their applications.
 
-### Development guides
-
-- [Hello, World! - Vapor](/documentation/server/guides/basics/hello-world-vapor/)
-- [Hello, World! - Hummingbird](/documentation/server/guides/basics/hello-world-hummingbird/)
-
-### Technical guides
-
 The Swift Server Workgroup and Swift on Server community have developed several guides for using Swift on the server.
 They are designed to help teams and individuals running server-side Swift applications on Linux, including orientation for those who want to start developing with Swift.
 
-The following guides focus on how to compile, test, deploy, and debug applications and provide tips in those areas:
+### Application development guides
 
-- [Setup and code editing](/documentation/server/guides/setup-and-ide-alternatives.html).
-- [Building](/documentation/server/guides/building.html).
-- [Testing](/documentation/server/guides/testing.html).
-- [Debugging Memory leaks](/documentation/server/guides/memory-leaks-and-usage.html).
-- [Performance troubleshooting and analysis](/documentation/server/guides/performance.html).
-- [Optimizing allocations](/documentation/server/guides/allocations.html).
-- [Debugging multithreading issues and memory checks](/documentation/server/guides/llvm-sanitizers.html).
-- [Packaging](/documentation/server/guides/packaging.html).
+- [Hello, World! - Vapor](/documentation/server/guides/development/hello-world-vapor/)
+- [Hello, World! - Hummingbird](/documentation/server/guides/development/hello-world-hummingbird/)
+
+### Library development guides
 
 Additionally, specific guides exist for library developers:
 
-* [Log Levels](/documentation/server/guides/libraries/log-levels.html).
-* [Adopting Swift Concurrency](/documentation/server/guides/libraries/concurrency-adoption-guidelines.html).
+* [Log Levels](/documentation/server/guides/libraries/log-levels/).
+* [Adopting Swift Concurrency](/documentation/server/guides/libraries/concurrency-adoption-guidelines/).
 
-_These guides are a community effort. Anyone is invited to share their tips and know-how by submitting pull requests to the [Swift.org site](https://github.com/apple/swift-org-website)_.
+
+### Technical guides
+
+The following guides focus on how to compile, test, deploy, and debug applications and provide tips in those areas:
+
+- [Setup and code editing](/documentation/server/guides/technical/setup-and-ide-alternatives/).
+- [Building](/documentation/server/guides/technical/building/).
+- [Testing](/documentation/server/guides/technical/testing/).
+- [Debugging Memory leaks](/documentation/server/guides/technical/memory-leaks-and-usage/).
+- [Performance troubleshooting and analysis](/documentation/server/guides/technical/performance/).
+- [Optimizing allocations](/documentation/server/guides/technical/allocations/).
+- [Debugging multithreading issues and memory checks](/documentation/server/guides/technical/llvm-sanitizers/).
+- [Packaging](/documentation/server/guides/technical/packaging/).
+
 
 ### Deployment guides
 
 The following guides can help with the deployment to public cloud providers:
 
-* [AWS Lambda using the Serverless Application Model (SAM)](/documentation/server/guides/deploying/aws-sam-lambda.html)
-* [AWS Fargate with Vapor and MongoDB Atlas](/documentation/server/guides/deploying/aws-copilot-fargate-vapor-mongo.html)
-* [AWS EC2](/documentation/server/guides/deploying/aws.html)
-* [DigitalOcean](/documentation/server/guides/deploying/digital-ocean.html)
-* [Heroku](/documentation/server/guides/deploying/heroku.html)
-* [Kubernetes & Docker](/documentation/server/guides/packaging.html#docker)
-* [GCP](/documentation/server/guides/deploying/gcp.html)
+* [AWS Lambda using the Serverless Application Model (SAM)](/documentation/server/guides/deployment/aws-sam-lambda/)
+* [AWS Fargate with Vapor and MongoDB Atlas](/documentation/server/guides/deployment/aws-copilot-fargate-vapor-mongo/)
+* [AWS EC2](/documentation/server/guides/deployment/aws/)
+* [DigitalOcean](/documentation/server/guides/deployment/digital-ocean/)
+* [Heroku](/documentation/server/guides/deployment/heroku/)
+* [GCP](/documentation/server/guides/deployment/gcp/)
+* [Kubernetes & Docker](/documentation/server/guides/technical/packaging/#docker)
 
-If you are deploying to your own servers (e.g. bare metal, VMs or Docker) there are several strategies for packaging Swift applications for deployment, see the [Packaging Guide](/server/guides/packaging.html) for more information.
+If you are deploying to your own servers (e.g. bare metal, VMs or Docker) there are several strategies for packaging Swift applications for deployment, see the [Packaging Guide](/documentation/server/guides/technical/packaging/) for more information.
 
 
 ### Other websites and tutorials
@@ -94,6 +96,8 @@ If you are deploying to your own servers (e.g. bare metal, VMs or Docker) there 
 - [Swift on Server](https://swiftonserver.com/)
 - [Articles, tools & resources for Vapor devs](https://blog.vapor.codes/)
 - [The.Swift.Dev](https://theswiftdev.com/)
+
+_These guides are a community effort. Anyone is invited to share their tips and know-how by submitting pull requests to the [Swift.org site](https://github.com/apple/swift-org-website)_.
 
 
 ## Recommended packages 

@@ -1,5 +1,7 @@
 ---
-redirect_from: "server/guides/performance"
+redirect_from: 
+    - "/server/guides/performance"
+    - "/documentation/server/guides/performance"
 layout: page
 title: Debugging Performance Issues
 ---
@@ -107,7 +109,7 @@ for f in 0..<2_000 {
 
 The above program contains the `TerribleArray` data structure which has _O(n)_ appends and not the amortised _O(1)_ that users are used to from `Array`.
 
-We will assume, that you have Linux's `perf` installed and configured, documentation on how to install `perf` can be found in [this guide](/server/guides/linux-perf.html).
+We will assume, that you have Linux's `perf` installed and configured, documentation on how to install `perf` can be found in [this guide](/documentation/server/guides/technical/linux-perf/).
 
 Let's assume we have compiled the above code using `swift build -c release` into a binary called `./slow`. We also assume that the `https://github.com/brendangregg/FlameGraph` repository is cloned in `~/FlameGraph`:
 

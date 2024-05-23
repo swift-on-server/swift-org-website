@@ -1,5 +1,7 @@
 ---
-redirect_from: "server/guides/deploying/digital-ocean"
+redirect_from:  
+    - "/server/guides/deploying/digital-ocean"
+    - "/documentation/server/guides/deploying/digital-ocean"
 layout: page
 title: Deploying to DigitalOcean
 ---
@@ -65,4 +67,4 @@ Copy the root user's authorized SSH keys to the newly created user. This will al
 rsync --archive --chown=swift:swift ~/.ssh /home/swift
 ```
 
-Your DigitalOcean virtual machine is now ready. Continue using the [Ubuntu](/server/guides/deploying/ubuntu.html) guide.
+Your DigitalOcean virtual machine is now ready. Continue using the [Ubuntu](/documentation/server/guides/deploying/ubuntu/) guide.
